@@ -1,0 +1,195 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Страница — 1" id="gCSXsW7qYMQecbnX13WU">
+    <mxGraphModel dx="2231" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 40px;&quot;&gt;Exchanger&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="384" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-3" target="_Ykevn64Ni2eIDG1oHSd-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="210" />
+              <mxPoint x="110" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-3" target="_Ykevn64Ni2eIDG1oHSd-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-3" target="_Ykevn64Ni2eIDG1oHSd-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-3" target="_Ykevn64Ni2eIDG1oHSd-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-3" target="_Ykevn64Ni2eIDG1oHSd-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="210" />
+              <mxPoint x="700" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-3" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Микросервисы&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="384" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-5" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Аутентификация и управление пользователями:&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Технологии: OAuth2, JWT для аутентификации, база данных для хранения данных пользователей.&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;Язык: Node.js&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;База данных: MongoDB, PostgreSQL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Функционал: управление регистрацией, входом, профилями пользователей и их настройками.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/font&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="10" y="278.5" width="200" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-7" value="Управление транзакциями:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Технологии: REST API для взаимодействия с клиентом, базы данных для хранения информации о транзакциях.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Язык:&amp;nbsp; Java Spring&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;База данных: MongoDB, PostgreSQL&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Функционал: обработка и валидация транзакций между пользователями, хранение истории транзакций.&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="314" y="277.5" width="200" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-11" value="Обмен сообщениями, уведомления:&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Технологии: WebSocket для чатов или REST API для отправки уведомлений по электронной почте или SMS.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Язык: C#&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Функционал: реализация обмена сообщениями между пользователями и отправка уведомлений.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="610" y="277.5" width="200" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-14" target="_Ykevn64Ni2eIDG1oHSd-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="700" />
+              <mxPoint x="110" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-14" target="_Ykevn64Ni2eIDG1oHSd-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-14" target="_Ykevn64Ni2eIDG1oHSd-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="700" />
+              <mxPoint x="710" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-14" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Логирование&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="384" y="650" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-15" value="&lt;strong&gt;DEBUG&lt;/strong&gt;: Используется для детальной отладки приложения. Логи на этом уровне могут содержать информацию о состоянии приложения, входных данных и других деталях." style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="740" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-17" value="&lt;strong&gt;INFO&lt;/strong&gt;: Для общего информирования о работе приложения. Авторизация пользователей/создание ордеров и тд" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="314" y="740" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-22" value="&lt;strong&gt;WARNING&lt;/strong&gt;: Для предупреждений о потенциальных проблемах, которые не являются критическими, но могут потребовать внимания. В основном логирование времени" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="740" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-24" value="&lt;font style=&quot;font-size: 28px;&quot;&gt;Модели&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="384" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-25" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Модели аутентификации&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="288" y="980" width="251" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-26" value="Authentication&lt;br&gt;&lt;br&gt;    id: int&lt;br&gt;    login: string&lt;br&gt;    password: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1079" width="116" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-28" target="_Ykevn64Ni2eIDG1oHSd-30" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1230" />
+              <mxPoint x="170" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-28" target="_Ykevn64Ni2eIDG1oHSd-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="1136" />
+              <mxPoint x="500" y="1136" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="_Ykevn64Ni2eIDG1oHSd-37" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="330" y="1230" />
+              <mxPoint x="640" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-28" value="User&lt;br&gt;&lt;br&gt;    id: int&lt;br&gt;    authenticationId: int&amp;nbsp;&lt;br&gt;    email: string&lt;br&gt;    createdAt: date&lt;br&gt;    updatedAt: date&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="264" y="1070" width="131" height="131" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-29" value="UserInfo&lt;br&gt;&lt;br&gt;    id: int&lt;br&gt;    userId: int (ссылка на User)&lt;br&gt;    name: string&lt;br&gt;    surname: string&lt;br&gt;    nickname: string&lt;br&gt;    birthDate: date&lt;br&gt;    verified: bool&lt;br&gt;    imageUrl: string (url)&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="539" y="1034" width="125.5" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-30" value="UserPreferences&lt;br&gt;&lt;br&gt;    id: int&lt;br&gt;    userId: int&amp;nbsp;&lt;br&gt;    language: string&lt;br&gt;    notificationsEnabled: bool&lt;br&gt;    theme: string&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="1259" width="120" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1.006;exitY=0.611;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-26" target="_Ykevn64Ni2eIDG1oHSd-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="24" y="1150" as="sourcePoint" />
+            <mxPoint x="74" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-34" value="&lt;div&gt;UserStatistics&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; userId: int&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; completedOrders: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; successfulOrdersPercentage: float&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
+          <mxGeometry x="288" y="1290" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="_Ykevn64Ni2eIDG1oHSd-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="1230" as="sourcePoint" />
+            <mxPoint x="300" y="1170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="400" y="1230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-37" value="&lt;div&gt;ProfileComment&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; userId: int (ссылка на User)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; commenterNickname: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; text: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; isPositive: bool&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; createdAt: date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="560" y="1290" width="160" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-39" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Модели транзакций&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="288" y="1540" width="251" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-40" target="_Ykevn64Ni2eIDG1oHSd-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-40" target="_Ykevn64Ni2eIDG1oHSd-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-40" value="&lt;div&gt;P2POrder&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; userId: int (ссылка на User)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; orderType: string&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; statusId: int&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; createdAt: date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; updatedAt: date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; amount: float&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; currency: string&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; price: float&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; paymentMethodId: [int]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; counterpartyUserId: int (ссылка на User, для продавца/покупателя)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; expirationTime: date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="274" y="1614" width="248" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-41" target="_Ykevn64Ni2eIDG1oHSd-40" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="1716" />
+              <mxPoint x="250" y="1716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-41" value="P2POrderStatus&lt;br&gt;&lt;br&gt;    id: int&lt;br&gt;    status: string&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1678" width="160" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-43" target="_Ykevn64Ni2eIDG1oHSd-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-43" value="PaymentMethod&lt;br&gt;&lt;br&gt;    id: int&lt;br&gt;    methodName: string  // Название метода оплаты, например, &quot;Bank Transfer&quot;, &quot;PayPal&quot;&lt;br&gt;    description: string&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="15" y="1810" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-46" value="&lt;div&gt;Transaction&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; p2pOrderId: int&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; statusId: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; createdAt: date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; completedAt: date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; amount: float&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; currency: string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="273" y="1940" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_Ykevn64Ni2eIDG1oHSd-47" target="_Ykevn64Ni2eIDG1oHSd-46" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-47" value="&lt;div&gt;TransactionStatus&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; status: string&amp;nbsp; // например, &quot;Initiated&quot;, &quot;In Process&quot;, &quot;Completed&quot;, &quot;Failed&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1965" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-51" value="&lt;div&gt;P2PFeedback&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; p2pOrderId: int (ссылка на P2POrder)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; userId: int (ссылка на User)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; rating: int&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// Оценка от 1 до 5&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; comment: string&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; createdAt: date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="577.5" y="1630" width="215" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-54" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Модели сообщений и уведомлений&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="272.5" y="2190" width="251" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-55" value="&lt;div&gt;Notification&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; userId: int (ссылка на User)&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; type: string&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// Тип уведомления: &quot;message&quot;, &quot;order_update&quot;, &quot;promotion&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; content: string&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; createdAt: date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; sentAt: date&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="2270" width="173" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_Ykevn64Ni2eIDG1oHSd-56" value="&lt;div&gt;Message&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; id: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; senderId: int (ссылка на User)&amp;nbsp; // ID отправителя&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; recipientId: int (ссылка на User)&amp;nbsp; // ID получателя&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; content: string&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; statusId: int&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; createdAt: date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; sentAt: date&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; readAt: date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="438" y="2270" width="200" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -11,6 +11,13 @@
 		D05DF3842CD67EF20038A98F /* TextWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3832CD67EF20038A98F /* TextWithImage.swift */; };
 		D05DF3872CD690170038A98F /* PaymentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3862CD690170038A98F /* PaymentsList.swift */; };
 		D05DF38A2CD695B10038A98F /* PaymentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3892CD695B10038A98F /* PaymentsModel.swift */; };
+		D08D71AB2CDA4221000A4E71 /* AdvertisementsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71AA2CDA4221000A4E71 /* AdvertisementsList.swift */; };
+		D08D71AD2CDA43B3000A4E71 /* AdvertisementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71AC2CDA43B3000A4E71 /* AdvertisementModel.swift */; };
+		D08D71B22CDA4DCD000A4E71 /* AdvertisementMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71B12CDA4DCD000A4E71 /* AdvertisementMain.swift */; };
+		D08D71B52CDA5054000A4E71 /* AdvertisementNewsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71B42CDA5054000A4E71 /* AdvertisementNewsCard.swift */; };
+		D08D71B72CDB6612000A4E71 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71B62CDB6612000A4E71 /* NewsList.swift */; };
+		D08D71B92CDB7593000A4E71 /* ChooseToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71B82CDB7593000A4E71 /* ChooseToken.swift */; };
+		D08D71BC2CDB81B6000A4E71 /* ButtonDefaultCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71BB2CDB81B6000A4E71 /* ButtonDefaultCommands.swift */; };
 		D0EBCEEF2CD4E0B800F7B78C /* exchangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCEEE2CD4E0B800F7B78C /* exchangerApp.swift */; };
 		D0EBCEF12CD4E0B800F7B78C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCEF02CD4E0B800F7B78C /* ContentView.swift */; };
 		D0EBCEF32CD4E0B900F7B78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EBCEF22CD4E0B900F7B78C /* Assets.xcassets */; };
@@ -97,6 +104,13 @@
 		D05DF3832CD67EF20038A98F /* TextWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithImage.swift; sourceTree = "<group>"; };
 		D05DF3862CD690170038A98F /* PaymentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsList.swift; sourceTree = "<group>"; };
 		D05DF3892CD695B10038A98F /* PaymentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsModel.swift; sourceTree = "<group>"; };
+		D08D71AA2CDA4221000A4E71 /* AdvertisementsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementsList.swift; sourceTree = "<group>"; };
+		D08D71AC2CDA43B3000A4E71 /* AdvertisementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementModel.swift; sourceTree = "<group>"; };
+		D08D71B12CDA4DCD000A4E71 /* AdvertisementMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementMain.swift; sourceTree = "<group>"; };
+		D08D71B42CDA5054000A4E71 /* AdvertisementNewsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertisementNewsCard.swift; sourceTree = "<group>"; };
+		D08D71B62CDB6612000A4E71 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
+		D08D71B82CDB7593000A4E71 /* ChooseToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseToken.swift; sourceTree = "<group>"; };
+		D08D71BB2CDB81B6000A4E71 /* ButtonDefaultCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefaultCommands.swift; sourceTree = "<group>"; };
 		D0EBCEEB2CD4E0B800F7B78C /* exchanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exchanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EBCEEE2CD4E0B800F7B78C /* exchangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exchangerApp.swift; sourceTree = "<group>"; };
 		D0EBCEF02CD4E0B800F7B78C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -160,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				D05DF3812CD6652F0038A98F /* SellBuyCard.swift */,
+				D08D71B82CDB7593000A4E71 /* ChooseToken.swift */,
 			);
 			path = AdvertisementCard;
 			sourceTree = "<group>";
@@ -168,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				D05DF3862CD690170038A98F /* PaymentsList.swift */,
+				D08D71AA2CDA4221000A4E71 /* AdvertisementsList.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -176,8 +192,34 @@
 			isa = PBXGroup;
 			children = (
 				D05DF3892CD695B10038A98F /* PaymentsModel.swift */,
+				D08D71AC2CDA43B3000A4E71 /* AdvertisementModel.swift */,
 			);
 			path = AdvertisementsModel;
+			sourceTree = "<group>";
+		};
+		D08D71B02CDA4DAB000A4E71 /* Advertisement */ = {
+			isa = PBXGroup;
+			children = (
+				D08D71B12CDA4DCD000A4E71 /* AdvertisementMain.swift */,
+			);
+			path = Advertisement;
+			sourceTree = "<group>";
+		};
+		D08D71B32CDA5040000A4E71 /* NewsCard */ = {
+			isa = PBXGroup;
+			children = (
+				D08D71B42CDA5054000A4E71 /* AdvertisementNewsCard.swift */,
+				D08D71B62CDB6612000A4E71 /* NewsList.swift */,
+			);
+			path = NewsCard;
+			sourceTree = "<group>";
+		};
+		D08D71BA2CDB8188000A4E71 /* Commands */ = {
+			isa = PBXGroup;
+			children = (
+				D08D71BB2CDB81B6000A4E71 /* ButtonDefaultCommands.swift */,
+			);
+			path = Commands;
 			sourceTree = "<group>";
 		};
 		D0EBCEE22CD4E0B800F7B78C = {
@@ -251,6 +293,7 @@
 		D0EBCF192CD4E12400F7B78C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D08D71B02CDA4DAB000A4E71 /* Advertisement */,
 				D0EBCF572CD4E6F400F7B78C /* Auth */,
 			);
 			path = Views;
@@ -259,6 +302,7 @@
 		D0EBCF1B2CD4E17000F7B78C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D08D71BA2CDB8188000A4E71 /* Commands */,
 				D05DF3852CD690060038A98F /* Lists */,
 				D0EBCF212CD4E1C500F7B78C /* Text */,
 				D0EBCF202CD4E1BB00F7B78C /* Check */,
@@ -285,6 +329,7 @@
 		D0EBCF1D2CD4E19700F7B78C /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				D08D71B32CDA5040000A4E71 /* NewsCard */,
 				D05DF3802CD664C10038A98F /* AdvertisementCard */,
 			);
 			path = Cards;
@@ -490,22 +535,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08D71B52CDA5054000A4E71 /* AdvertisementNewsCard.swift in Sources */,
 				D05DF3822CD6652F0038A98F /* SellBuyCard.swift in Sources */,
 				D0EBCF5D2CD4E71400F7B78C /* RegisterPagePhone.swift in Sources */,
 				D0EBCF612CD4E72300F7B78C /* RegisterPage.swift in Sources */,
+				D08D71AD2CDA43B3000A4E71 /* AdvertisementModel.swift in Sources */,
 				D0EBCF592CD4E70000F7B78C /* AuthPage.swift in Sources */,
 				D0EBCF442CD4E68400F7B78C /* CommonButton.swift in Sources */,
 				D0EBCF4C2CD4E6AD00F7B78C /* OneIconButton.swift in Sources */,
 				D05DF3872CD690170038A98F /* PaymentsList.swift in Sources */,
 				D0EBCF292CD4E29B00F7B78C /* EndEditing.swift in Sources */,
 				D0EBCF542CD4E6D600F7B78C /* SocialMediaButton.swift in Sources */,
+				D08D71B22CDA4DCD000A4E71 /* AdvertisementMain.swift in Sources */,
+				D08D71B92CDB7593000A4E71 /* ChooseToken.swift in Sources */,
 				D0EBCEF12CD4E0B800F7B78C /* ContentView.swift in Sources */,
 				D0EBCF502CD4E6BE00F7B78C /* BackButton.swift in Sources */,
 				D0EBCEEF2CD4E0B800F7B78C /* exchangerApp.swift in Sources */,
 				D0EBCF482CD4E69500F7B78C /* SettingsButton.swift in Sources */,
+				D08D71AB2CDA4221000A4E71 /* AdvertisementsList.swift in Sources */,
 				D0EBCF232CD4E1D800F7B78C /* AuthPageAlert.swift in Sources */,
+				D08D71BC2CDB81B6000A4E71 /* ButtonDefaultCommands.swift in Sources */,
 				D0EBCF252CD4E20000F7B78C /* CheckAuthText.swift in Sources */,
 				D0EBCF652CD4E73E00F7B78C /* RegisterVerificationPhone.swift in Sources */,
+				D08D71B72CDB6612000A4E71 /* NewsList.swift in Sources */,
 				D05DF38A2CD695B10038A98F /* PaymentsModel.swift in Sources */,
 				D0EBCF692CD4E75500F7B78C /* RegisterPageFinal.swift in Sources */,
 				D0EBCF272CD4E28400F7B78C /* CustomTextField.swift in Sources */,

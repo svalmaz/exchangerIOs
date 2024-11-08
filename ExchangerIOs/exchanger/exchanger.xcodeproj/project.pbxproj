@@ -18,6 +18,10 @@
 		D08D71B72CDB6612000A4E71 /* NewsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71B62CDB6612000A4E71 /* NewsList.swift */; };
 		D08D71B92CDB7593000A4E71 /* ChooseToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71B82CDB7593000A4E71 /* ChooseToken.swift */; };
 		D08D71BC2CDB81B6000A4E71 /* ButtonDefaultCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71BB2CDB81B6000A4E71 /* ButtonDefaultCommands.swift */; };
+		D08D71BE2CDBD4DF000A4E71 /* FiatAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71BD2CDBD4DF000A4E71 /* FiatAmount.swift */; };
+		D08D71C02CDC7F96000A4E71 /* NumericTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71BF2CDC7F96000A4E71 /* NumericTextField.swift */; };
+		D08D71C22CDCF3FC000A4E71 /* RoundedCornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71C12CDCF3FC000A4E71 /* RoundedCornerShape.swift */; };
+		D08D71C42CDCFB22000A4E71 /* PaymentsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08D71C32CDCFB22000A4E71 /* PaymentsCard.swift */; };
 		D0EBCEEF2CD4E0B800F7B78C /* exchangerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCEEE2CD4E0B800F7B78C /* exchangerApp.swift */; };
 		D0EBCEF12CD4E0B800F7B78C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCEF02CD4E0B800F7B78C /* ContentView.swift */; };
 		D0EBCEF32CD4E0B900F7B78C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0EBCEF22CD4E0B900F7B78C /* Assets.xcassets */; };
@@ -111,6 +115,10 @@
 		D08D71B62CDB6612000A4E71 /* NewsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsList.swift; sourceTree = "<group>"; };
 		D08D71B82CDB7593000A4E71 /* ChooseToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseToken.swift; sourceTree = "<group>"; };
 		D08D71BB2CDB81B6000A4E71 /* ButtonDefaultCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonDefaultCommands.swift; sourceTree = "<group>"; };
+		D08D71BD2CDBD4DF000A4E71 /* FiatAmount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiatAmount.swift; sourceTree = "<group>"; };
+		D08D71BF2CDC7F96000A4E71 /* NumericTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericTextField.swift; sourceTree = "<group>"; };
+		D08D71C12CDCF3FC000A4E71 /* RoundedCornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornerShape.swift; sourceTree = "<group>"; };
+		D08D71C32CDCFB22000A4E71 /* PaymentsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsCard.swift; sourceTree = "<group>"; };
 		D0EBCEEB2CD4E0B800F7B78C /* exchanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exchanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0EBCEEE2CD4E0B800F7B78C /* exchangerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exchangerApp.swift; sourceTree = "<group>"; };
 		D0EBCEF02CD4E0B800F7B78C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -175,6 +183,8 @@
 			children = (
 				D05DF3812CD6652F0038A98F /* SellBuyCard.swift */,
 				D08D71B82CDB7593000A4E71 /* ChooseToken.swift */,
+				D08D71BD2CDBD4DF000A4E71 /* FiatAmount.swift */,
+				D08D71C32CDCFB22000A4E71 /* PaymentsCard.swift */,
 			);
 			path = AdvertisementCard;
 			sourceTree = "<group>";
@@ -218,6 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				D08D71BB2CDB81B6000A4E71 /* ButtonDefaultCommands.swift */,
+				D08D71C12CDCF3FC000A4E71 /* RoundedCornerShape.swift */,
 			);
 			path = Commands;
 			sourceTree = "<group>";
@@ -370,6 +381,7 @@
 				D0EBCF262CD4E28400F7B78C /* CustomTextField.swift */,
 				D0EBCF282CD4E29B00F7B78C /* EndEditing.swift */,
 				D05DF3832CD67EF20038A98F /* TextWithImage.swift */,
+				D08D71BF2CDC7F96000A4E71 /* NumericTextField.swift */,
 			);
 			path = Text;
 			sourceTree = "<group>";
@@ -545,6 +557,7 @@
 				D0EBCF4C2CD4E6AD00F7B78C /* OneIconButton.swift in Sources */,
 				D05DF3872CD690170038A98F /* PaymentsList.swift in Sources */,
 				D0EBCF292CD4E29B00F7B78C /* EndEditing.swift in Sources */,
+				D08D71C22CDCF3FC000A4E71 /* RoundedCornerShape.swift in Sources */,
 				D0EBCF542CD4E6D600F7B78C /* SocialMediaButton.swift in Sources */,
 				D08D71B22CDA4DCD000A4E71 /* AdvertisementMain.swift in Sources */,
 				D08D71B92CDB7593000A4E71 /* ChooseToken.swift in Sources */,
@@ -552,10 +565,13 @@
 				D0EBCF502CD4E6BE00F7B78C /* BackButton.swift in Sources */,
 				D0EBCEEF2CD4E0B800F7B78C /* exchangerApp.swift in Sources */,
 				D0EBCF482CD4E69500F7B78C /* SettingsButton.swift in Sources */,
+				D08D71C02CDC7F96000A4E71 /* NumericTextField.swift in Sources */,
 				D08D71AB2CDA4221000A4E71 /* AdvertisementsList.swift in Sources */,
 				D0EBCF232CD4E1D800F7B78C /* AuthPageAlert.swift in Sources */,
 				D08D71BC2CDB81B6000A4E71 /* ButtonDefaultCommands.swift in Sources */,
+				D08D71BE2CDBD4DF000A4E71 /* FiatAmount.swift in Sources */,
 				D0EBCF252CD4E20000F7B78C /* CheckAuthText.swift in Sources */,
+				D08D71C42CDCFB22000A4E71 /* PaymentsCard.swift in Sources */,
 				D0EBCF652CD4E73E00F7B78C /* RegisterVerificationPhone.swift in Sources */,
 				D08D71B72CDB6612000A4E71 /* NewsList.swift in Sources */,
 				D05DF38A2CD695B10038A98F /* PaymentsModel.swift in Sources */,

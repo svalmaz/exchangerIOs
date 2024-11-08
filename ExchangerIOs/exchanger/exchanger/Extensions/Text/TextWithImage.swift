@@ -13,14 +13,20 @@ struct TextWithImage: View {
     @State public var imageColor: Color = Color.gray
     @State public var textSize: Int = 11
     @State public var imageSize: Int = 11
+    @State public var textColor : String = "WhiteTextColor"
     var body: some View {
         Label {
-            Text(text).foregroundColor(.gray).font(.system(size:CGFloat(textSize)))
+            Text(text).foregroundColor(Color(textColor))
+                .font(.system(size:CGFloat(textSize)))
+                
         } icon: {
                   Image(systemName: image)
                       .foregroundColor(imageColor)
                       .font(.system(size:CGFloat(imageSize)))
-              }    }
+              }
+        
+    }
+    
 }
 
 struct TextWithImage_Previews: PreviewProvider {

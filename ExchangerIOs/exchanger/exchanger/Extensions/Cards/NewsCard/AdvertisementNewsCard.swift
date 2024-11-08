@@ -37,6 +37,7 @@ struct AdvertisementNewsCard: View {
                 
 
             }
+         
             Image("advertisementIcon").resizable()
                 .scaledToFit().frame(width: 60,height: 60)
                 .padding(.leading, 20)

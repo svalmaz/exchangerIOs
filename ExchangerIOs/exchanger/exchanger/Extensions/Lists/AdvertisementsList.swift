@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct AdvertisementsList: View {
-    @State public var advertisementsList = [1,2,3,4,5,6,7,8,9,10,11,12,13]
+    @State public var advertisementRequest : AdvertisementRequest = AdvertisementRequest(token: "USDT", fiat: "KGS", amount: 1000, method: "SELL", paymentsMethod: [1,2,3,4])
+        let adsGet = AdvertisementListGet()
     var body: some View {
         ScrollView{
-            ForEach(advertisementsList, id: \.self){ads in
-                SellBuyCard()
-                    .padding(.bottom, 30)
-                Divider()
                 
-            }
+            ForEach(adsGet.getAds(request: advertisementRequest.method) , id: \.self){ads in
+                    SellBuyCard(advertisement: ads)
+                        .padding(.bottom, 30)
+                    Divider()
+                    
+                }
+            
+          
         }
     }
 }

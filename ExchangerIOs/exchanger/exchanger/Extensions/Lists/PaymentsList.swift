@@ -16,7 +16,7 @@ struct PaymentsList: View {
                     ForEach(paymentList, id: \.self){number in
                         if let payment = findPayment(for: number){
                             HStack{
-                                TextWithImage(text: payment.paymentName, image: "circle.fill", imageColor: payment.paymentColor, imageSize: 5)
+                                TextWithImage(text: payment.paymentName, image: "circle.fill", imageColor: payment.paymentColor, imageSize: 5, textColor: "AuthColor")
                             }.padding(.horizontal, 10)
                                 .padding(.vertical, 3).background(Color.gray.opacity(0.1)) // Фон с непрозрачностью 0.1
                                 .cornerRadius(25)

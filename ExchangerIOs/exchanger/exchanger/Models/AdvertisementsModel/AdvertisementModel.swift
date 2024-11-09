@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 struct AdvertisementModel : Hashable{
     let username : String
     let ordersCount : Int

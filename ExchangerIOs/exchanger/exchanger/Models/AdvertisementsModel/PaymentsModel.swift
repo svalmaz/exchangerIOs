@@ -8,18 +8,18 @@
 import Foundation
 import SwiftUI
 
-struct NumberWithTexts {
+struct Payment {
     let number: Int
     let paymentName: String
     let paymentColor: Color
 }
-let data: [NumberWithTexts] = [
-    NumberWithTexts(number: 1, paymentName: "mBank", paymentColor: Color(hex: "#48acb0")),
-    NumberWithTexts(number: 2, paymentName: "bakai", paymentColor: Color(hex: "#ba9b47")),
-    NumberWithTexts(number: 3, paymentName: "optima", paymentColor: Color(hex: "#9d48b0")),
-    NumberWithTexts(number: 4, paymentName: "demir", paymentColor: Color(hex: "#b04872")),
-    NumberWithTexts(number: 5, paymentName: "О деньги", paymentColor: Color(hex: "#8348b0")),
-    NumberWithTexts(number: 6, paymentName: "KICB", paymentColor: Color(hex: "#4881b0"))
+let data: [Payment] = [
+    Payment(number: 1, paymentName: "mBank", paymentColor: Color(hex: "#48acb0")),
+    Payment(number: 2, paymentName: "bakai", paymentColor: Color(hex: "#ba9b47")),
+    Payment(number: 3, paymentName: "optima", paymentColor: Color(hex: "#9d48b0")),
+    Payment(number: 4, paymentName: "demir", paymentColor: Color(hex: "#b04872")),
+    Payment(number: 5, paymentName: "О деньги", paymentColor: Color(hex: "#8348b0")),
+    Payment(number: 6, paymentName: "KICB", paymentColor: Color(hex: "#4881b0"))
 ]
 func findPayment(for number: Int) -> (paymentName: String, paymentColor: Color)?{
     if let found = data.first(where: {$0.number == number}){

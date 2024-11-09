@@ -18,6 +18,7 @@ struct AdvertisementNewsCard: View {
             VStack{
                 HStack(spacing: 5){
                     Text(firstText).fontWeight(.bold)
+                        .foregroundColor(Color("WhiteTextColor"))
                     Button(action:{
                         guard let url = URL(string: url) else {
                           return //be safe

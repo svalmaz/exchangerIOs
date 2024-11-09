@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D01170512CDF97210006D675 /* MyAdvertisements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01170502CDF97210006D675 /* MyAdvertisements.swift */; };
+		D01170532CDF97330006D675 /* MyAdvertisementCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01170522CDF97330006D675 /* MyAdvertisementCard.swift */; };
+		D01170552CDF97540006D675 /* MyAdvertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01170542CDF97540006D675 /* MyAdvertisement.swift */; };
 		D05DF3822CD6652F0038A98F /* SellBuyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3812CD6652F0038A98F /* SellBuyCard.swift */; };
 		D05DF3842CD67EF20038A98F /* TextWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3832CD67EF20038A98F /* TextWithImage.swift */; };
 		D05DF3872CD690170038A98F /* PaymentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3862CD690170038A98F /* PaymentsList.swift */; };
@@ -85,6 +88,10 @@
 		D0EBCF6E2CD4E76C00F7B78C /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */; };
 		D0EBCF6F2CD4E76C00F7B78C /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */; };
 		D0EF8CC22CDF1BF000CF0F24 /* ChooseFiatToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF8CC12CDF1BF000CF0F24 /* ChooseFiatToken.swift */; };
+		D0EF8CC52CDF4FCF00CF0F24 /* OrdersMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF8CC42CDF4FCF00CF0F24 /* OrdersMain.swift */; };
+		D0EF8CC82CDF517400CF0F24 /* OrderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF8CC72CDF517400CF0F24 /* OrderCard.swift */; };
+		D0EF8CCB2CDF521C00CF0F24 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF8CCA2CDF521C00CF0F24 /* OrderModel.swift */; };
+		D0EF8CCD2CDF762C00CF0F24 /* OrdersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF8CCC2CDF762C00CF0F24 /* OrdersList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +112,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D01170502CDF97210006D675 /* MyAdvertisements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertisements.swift; sourceTree = "<group>"; };
+		D01170522CDF97330006D675 /* MyAdvertisementCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertisementCard.swift; sourceTree = "<group>"; };
+		D01170542CDF97540006D675 /* MyAdvertisement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertisement.swift; sourceTree = "<group>"; };
 		D05DF3812CD6652F0038A98F /* SellBuyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellBuyCard.swift; sourceTree = "<group>"; };
 		D05DF3832CD67EF20038A98F /* TextWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithImage.swift; sourceTree = "<group>"; };
 		D05DF3862CD690170038A98F /* PaymentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsList.swift; sourceTree = "<group>"; };
@@ -153,6 +163,10 @@
 		D0EBCF682CD4E75500F7B78C /* RegisterPageFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageFinal.swift; sourceTree = "<group>"; };
 		D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
 		D0EF8CC12CDF1BF000CF0F24 /* ChooseFiatToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFiatToken.swift; sourceTree = "<group>"; };
+		D0EF8CC42CDF4FCF00CF0F24 /* OrdersMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersMain.swift; sourceTree = "<group>"; };
+		D0EF8CC72CDF517400CF0F24 /* OrderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderCard.swift; sourceTree = "<group>"; };
+		D0EF8CCA2CDF521C00CF0F24 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		D0EF8CCC2CDF762C00CF0F24 /* OrdersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +202,7 @@
 				D08D71BD2CDBD4DF000A4E71 /* FiatAmount.swift */,
 				D08D71C32CDCFB22000A4E71 /* PaymentsCard.swift */,
 				D0EF8CC12CDF1BF000CF0F24 /* ChooseFiatToken.swift */,
+				D01170522CDF97330006D675 /* MyAdvertisementCard.swift */,
 			);
 			path = AdvertisementCard;
 			sourceTree = "<group>";
@@ -197,6 +212,7 @@
 			children = (
 				D05DF3862CD690170038A98F /* PaymentsList.swift */,
 				D08D71AA2CDA4221000A4E71 /* AdvertisementsList.swift */,
+				D0EF8CCC2CDF762C00CF0F24 /* OrdersList.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -206,6 +222,7 @@
 			children = (
 				D05DF3892CD695B10038A98F /* PaymentsModel.swift */,
 				D08D71AC2CDA43B3000A4E71 /* AdvertisementModel.swift */,
+				D01170542CDF97540006D675 /* MyAdvertisement.swift */,
 			);
 			path = AdvertisementsModel;
 			sourceTree = "<group>";
@@ -214,6 +231,7 @@
 			isa = PBXGroup;
 			children = (
 				D08D71B12CDA4DCD000A4E71 /* AdvertisementMain.swift */,
+				D01170502CDF97210006D675 /* MyAdvertisements.swift */,
 			);
 			path = Advertisement;
 			sourceTree = "<group>";
@@ -299,6 +317,7 @@
 		D0EBCF182CD4E11E00F7B78C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D0EF8CC92CDF520900CF0F24 /* OrdersModel */,
 				D05DF3882CD695790038A98F /* AdvertisementsModel */,
 			);
 			path = Models;
@@ -344,6 +363,7 @@
 		D0EBCF1D2CD4E19700F7B78C /* Cards */ = {
 			isa = PBXGroup;
 			children = (
+				D0EF8CC62CDF515E00CF0F24 /* OrdersCard */,
 				D08D71B32CDA5040000A4E71 /* NewsCard */,
 				D05DF3802CD664C10038A98F /* AdvertisementCard */,
 			);
@@ -406,8 +426,25 @@
 		D0EF8CC32CDF489F00CF0F24 /* Orders */ = {
 			isa = PBXGroup;
 			children = (
+				D0EF8CC42CDF4FCF00CF0F24 /* OrdersMain.swift */,
 			);
 			path = Orders;
+			sourceTree = "<group>";
+		};
+		D0EF8CC62CDF515E00CF0F24 /* OrdersCard */ = {
+			isa = PBXGroup;
+			children = (
+				D0EF8CC72CDF517400CF0F24 /* OrderCard.swift */,
+			);
+			path = OrdersCard;
+			sourceTree = "<group>";
+		};
+		D0EF8CC92CDF520900CF0F24 /* OrdersModel */ = {
+			isa = PBXGroup;
+			children = (
+				D0EF8CCA2CDF521C00CF0F24 /* OrderModel.swift */,
+			);
+			path = OrdersModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -561,6 +598,8 @@
 				D08D71B52CDA5054000A4E71 /* AdvertisementNewsCard.swift in Sources */,
 				D05DF3822CD6652F0038A98F /* SellBuyCard.swift in Sources */,
 				D0EBCF5D2CD4E71400F7B78C /* RegisterPagePhone.swift in Sources */,
+				D01170512CDF97210006D675 /* MyAdvertisements.swift in Sources */,
+				D0EF8CC82CDF517400CF0F24 /* OrderCard.swift in Sources */,
 				D0EBCF612CD4E72300F7B78C /* RegisterPage.swift in Sources */,
 				D08D71AD2CDA43B3000A4E71 /* AdvertisementModel.swift in Sources */,
 				D0EBCF592CD4E70000F7B78C /* AuthPage.swift in Sources */,
@@ -576,18 +615,23 @@
 				D0EBCF502CD4E6BE00F7B78C /* BackButton.swift in Sources */,
 				D0EBCEEF2CD4E0B800F7B78C /* exchangerApp.swift in Sources */,
 				D0EBCF482CD4E69500F7B78C /* SettingsButton.swift in Sources */,
+				D0EF8CCD2CDF762C00CF0F24 /* OrdersList.swift in Sources */,
 				D0EF8CC22CDF1BF000CF0F24 /* ChooseFiatToken.swift in Sources */,
+				D0EF8CC52CDF4FCF00CF0F24 /* OrdersMain.swift in Sources */,
 				D08D71C02CDC7F96000A4E71 /* NumericTextField.swift in Sources */,
 				D08D71AB2CDA4221000A4E71 /* AdvertisementsList.swift in Sources */,
+				D01170552CDF97540006D675 /* MyAdvertisement.swift in Sources */,
 				D0EBCF232CD4E1D800F7B78C /* AuthPageAlert.swift in Sources */,
 				D08D71BC2CDB81B6000A4E71 /* ButtonDefaultCommands.swift in Sources */,
 				D08D71BE2CDBD4DF000A4E71 /* FiatAmount.swift in Sources */,
 				D0EBCF252CD4E20000F7B78C /* CheckAuthText.swift in Sources */,
 				D08D71C42CDCFB22000A4E71 /* PaymentsCard.swift in Sources */,
+				D0EF8CCB2CDF521C00CF0F24 /* OrderModel.swift in Sources */,
 				D0EBCF652CD4E73E00F7B78C /* RegisterVerificationPhone.swift in Sources */,
 				D08D71B72CDB6612000A4E71 /* NewsList.swift in Sources */,
 				D05DF38A2CD695B10038A98F /* PaymentsModel.swift in Sources */,
 				D0EBCF692CD4E75500F7B78C /* RegisterPageFinal.swift in Sources */,
+				D01170532CDF97330006D675 /* MyAdvertisementCard.swift in Sources */,
 				D0EBCF272CD4E28400F7B78C /* CustomTextField.swift in Sources */,
 				D0EBCF6D2CD4E76C00F7B78C /* LoginPage.swift in Sources */,
 				D05DF3842CD67EF20038A98F /* TextWithImage.swift in Sources */,

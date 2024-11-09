@@ -84,6 +84,7 @@
 		D0EBCF6D2CD4E76C00F7B78C /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */; };
 		D0EBCF6E2CD4E76C00F7B78C /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */; };
 		D0EBCF6F2CD4E76C00F7B78C /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */; };
+		D0EF8CC22CDF1BF000CF0F24 /* ChooseFiatToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EF8CC12CDF1BF000CF0F24 /* ChooseFiatToken.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -151,6 +152,7 @@
 		D0EBCF642CD4E73E00F7B78C /* RegisterVerificationPhone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVerificationPhone.swift; sourceTree = "<group>"; };
 		D0EBCF682CD4E75500F7B78C /* RegisterPageFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPageFinal.swift; sourceTree = "<group>"; };
 		D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		D0EF8CC12CDF1BF000CF0F24 /* ChooseFiatToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseFiatToken.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				D08D71B82CDB7593000A4E71 /* ChooseToken.swift */,
 				D08D71BD2CDBD4DF000A4E71 /* FiatAmount.swift */,
 				D08D71C32CDCFB22000A4E71 /* PaymentsCard.swift */,
+				D0EF8CC12CDF1BF000CF0F24 /* ChooseFiatToken.swift */,
 			);
 			path = AdvertisementCard;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 		D0EBCF192CD4E12400F7B78C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D0EF8CC32CDF489F00CF0F24 /* Orders */,
 				D08D71B02CDA4DAB000A4E71 /* Advertisement */,
 				D0EBCF572CD4E6F400F7B78C /* Auth */,
 			);
@@ -397,6 +401,13 @@
 				D0EBCF6C2CD4E76C00F7B78C /* LoginPage.swift */,
 			);
 			path = Auth;
+			sourceTree = "<group>";
+		};
+		D0EF8CC32CDF489F00CF0F24 /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Orders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -565,6 +576,7 @@
 				D0EBCF502CD4E6BE00F7B78C /* BackButton.swift in Sources */,
 				D0EBCEEF2CD4E0B800F7B78C /* exchangerApp.swift in Sources */,
 				D0EBCF482CD4E69500F7B78C /* SettingsButton.swift in Sources */,
+				D0EF8CC22CDF1BF000CF0F24 /* ChooseFiatToken.swift in Sources */,
 				D08D71C02CDC7F96000A4E71 /* NumericTextField.swift in Sources */,
 				D08D71AB2CDA4221000A4E71 /* AdvertisementsList.swift in Sources */,
 				D0EBCF232CD4E1D800F7B78C /* AuthPageAlert.swift in Sources */,

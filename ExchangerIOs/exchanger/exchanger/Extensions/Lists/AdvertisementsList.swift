@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct AdvertisementsList: View {
-    @State public var advertisementRequest : AdvertisementRequest = AdvertisementRequest(token: "USDT", fiat: "KGS", amount: 1000, method: "SELL", paymentsMethod: [1,2,3,4])
+    @State public var advertisementRequest : AdvertisementRequest = AdvertisementRequest(token: "USDT", fiat: "KGS", amount: 1000, method: "Sell", paymentsMethod: [1,2,3,4])
         let adsGet = AdvertisementListGet()
     var body: some View {
         ScrollView{

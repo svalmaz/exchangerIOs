@@ -13,12 +13,16 @@ struct AdvertisementMain: View {
     @State private var selectedTab = 0
     @State private var buySellButton = true
     @State private var token = "USDT"
+    @State private var fiatTokenId = 1
+    @State private var fiatTokenName = "KGS"
+    @State private var chooseFiatToken = false
     @State private var chooseToken = false
     @State private var changeFiatAmount = false
     @State private var fiatAmount = ""
     @State private var paymentsList : [Int] = []
     @State private var choosePayment = false
     @State private var methodIndex = 1
+
     var body: some View {
         ZStack{
             if changeFiatAmount{
@@ -43,6 +47,24 @@ struct AdvertisementMain: View {
               
             }
         VStack{
+            HStack{
+                Text("P2P").fontWeight(.bold)
+                    .font(.system(size: 20))
+                Spacer()
+                Button(action:{chooseFiatToken.toggle()}){
+                    HStack{
+                        Text(fiatTokenName).foregroundColor(.primary)
+                        Image(systemName: "arrow.left.arrow.right")
+                            .resizable()
+                            .frame(width: 10, height: 10)
+                            .foregroundColor(.primary)
+                    }.padding(.horizontal, 10)
+                        .padding(.vertical, 5).overlay(RoundedRectangle(cornerRadius: 25)
+                        .stroke(lineWidth: 1).foregroundColor(.secondary))
+                    
+                }
+
+            }.padding(.horizontal, 30)
             
            NewsList()
                 
@@ -133,7 +155,9 @@ struct AdvertisementMain: View {
 
         .disabled(changeFiatAmount)
                
-    
+        .sheet(isPresented: $chooseFiatToken){
+            ChooseFiatToken(fiatTokenId: $fiatTokenId, fiatTokenName: $fiatTokenName).presentationDetents([.medium])
+        }
         .sheet(isPresented : $chooseToken){
             ChooseToken(token: $token).presentationDetents([.height(320)])
         }

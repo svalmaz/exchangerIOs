@@ -65,7 +65,7 @@ struct MyAdvertisementCard: View {
                 
             }
         }.padding(20)
-            .background(Color("AuthColor").opacity(0.1))
+            .background(Color("MyAdvColor").opacity(0.1))
             .cornerRadius(20)
             .padding(.horizontal, 10)
     }

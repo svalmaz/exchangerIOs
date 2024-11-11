@@ -25,7 +25,7 @@ struct ActiveCard: View {
                 .frame(width: 150)
         }.padding(.vertical, 20)
             .padding(.horizontal, 10)
-            .background(Color("AuthColor").opacity(0.1))
+            .background(Color("MyAdvColor").opacity(0.1))
             .cornerRadius(20)
            
 

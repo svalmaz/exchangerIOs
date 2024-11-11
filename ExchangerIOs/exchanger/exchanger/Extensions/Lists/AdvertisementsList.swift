@@ -16,7 +16,8 @@ struct AdvertisementsList: View {
             ForEach(adsGet.getAds(request: advertisementRequest.method) , id: \.self){ads in
                     SellBuyCard(advertisement: ads)
                         .padding(.bottom, 30)
-                    Divider()
+                Divider().foregroundColor(.secondary)
+                    .overlay(RoundedRectangle(cornerRadius: 1).stroke(lineWidth: 0.1))
                     
                 }
             

@@ -15,9 +15,9 @@ struct AdvertisementMain: View {
     @State private var token = "USDT"
     @State private var fiatTokenId = 1
     @State private var fiatTokenName = "KGS"
-    @State private var chooseFiatToken = false
+    @State public var chooseFiatToken = false
     @State private var chooseToken = false
-    @State private var changeFiatAmount = false
+    @Binding public var changeFiatAmount : Bool
     @State private var fiatAmount = ""
     @State private var paymentsList : [Int] = []
     @State private var choosePayment = false
@@ -167,11 +167,5 @@ struct AdvertisementMain: View {
             
            
         }
-    }
-}
-
-struct AdvertisementMain_Previews: PreviewProvider {
-    static var previews: some View {
-        AdvertisementMain()
     }
 }

@@ -22,7 +22,7 @@ struct MyAdvertisements: View {
                 Button(action:{pageIndex = 2}){
                     Text("Все") .foregroundColor(pageIndex == 2 ? .primary: .secondary)
                         .fontWeight(.semibold)
-                }
+                }.padding(.horizontal, 10)
                 Spacer()
             }  .padding(.top, 20)
                 .padding(.horizontal, 10)

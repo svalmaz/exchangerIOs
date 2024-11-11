@@ -15,7 +15,7 @@ struct OrderCard: View {
             HStack{
                 if myId == order.userId1 {
                    
-                    Text(order.method == "Buy" ? "Покупка" : "Покупка").foregroundColor(order.method == "Buy" ? Color("GreenCustom") : Color("RedCustom"))
+                    Text(order.method == "Buy" ? "Покупка" : "Продажа").foregroundColor(order.method == "Buy" ? Color("GreenCustom") : Color("RedCustom"))
                         .fontWeight(.semibold)
                         .font(.system(size: 20))
                 }

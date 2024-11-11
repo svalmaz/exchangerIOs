@@ -21,12 +21,15 @@ struct OrdersMain: View {
                         Button(action:{pageStatusSelection = 1 }){
                             Text("В обработке")
                                 .foregroundColor(pageStatusSelection == 1 ? .primary: .secondary)
+                                .fontWeight(.semibold)
                         }
                         Button(action:{pageStatusSelection = 2}){
                             Text("История") .foregroundColor(pageStatusSelection == 2 ? .primary: .secondary)
+                                .fontWeight(.semibold)
                         }
                         Button(action:{pageStatusSelection = 3}){
                             Text("Все") .foregroundColor(pageStatusSelection == 3 ? .primary: .secondary)
+                                .fontWeight(.semibold)
                         }
                         Spacer()
                     }
@@ -51,7 +54,6 @@ struct OrdersMain: View {
                    
                 }.tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))}
             
-            Spacer()
         }.padding(.horizontal, 10)
     }
 }

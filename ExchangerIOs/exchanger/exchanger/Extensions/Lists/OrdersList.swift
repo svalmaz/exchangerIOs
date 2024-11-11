@@ -13,6 +13,7 @@ struct OrdersList: View {
     var ordersList = GetOrders()
     var body: some View {
         VStack{
+            ScrollView{
         ForEach(ordersList.getOrderList(), id: \.self){order in
             OrderCard(order: order)
                 .padding(.vertical, 20)
@@ -20,7 +21,7 @@ struct OrdersList: View {
                 .overlay(RoundedRectangle(cornerRadius: 1).stroke(lineWidth: 0.1))
         }
             Spacer()
-        }
+        }}
     }
 }
 

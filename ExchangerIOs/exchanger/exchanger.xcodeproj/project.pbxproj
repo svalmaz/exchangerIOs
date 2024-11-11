@@ -10,6 +10,8 @@
 		D01170512CDF97210006D675 /* MyAdvertisements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01170502CDF97210006D675 /* MyAdvertisements.swift */; };
 		D01170532CDF97330006D675 /* MyAdvertisementCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01170522CDF97330006D675 /* MyAdvertisementCard.swift */; };
 		D01170552CDF97540006D675 /* MyAdvertisement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01170542CDF97540006D675 /* MyAdvertisement.swift */; };
+		D03D11BB2CE1E45D00A43A7B /* MyAdvertisementsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D11BA2CE1E45D00A43A7B /* MyAdvertisementsList.swift */; };
+		D03D11BD2CE1E94A00A43A7B /* ActiveCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03D11BC2CE1E94A00A43A7B /* ActiveCard.swift */; };
 		D05DF3822CD6652F0038A98F /* SellBuyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3812CD6652F0038A98F /* SellBuyCard.swift */; };
 		D05DF3842CD67EF20038A98F /* TextWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3832CD67EF20038A98F /* TextWithImage.swift */; };
 		D05DF3872CD690170038A98F /* PaymentsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05DF3862CD690170038A98F /* PaymentsList.swift */; };
@@ -115,6 +117,8 @@
 		D01170502CDF97210006D675 /* MyAdvertisements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertisements.swift; sourceTree = "<group>"; };
 		D01170522CDF97330006D675 /* MyAdvertisementCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertisementCard.swift; sourceTree = "<group>"; };
 		D01170542CDF97540006D675 /* MyAdvertisement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertisement.swift; sourceTree = "<group>"; };
+		D03D11BA2CE1E45D00A43A7B /* MyAdvertisementsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAdvertisementsList.swift; sourceTree = "<group>"; };
+		D03D11BC2CE1E94A00A43A7B /* ActiveCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveCard.swift; sourceTree = "<group>"; };
 		D05DF3812CD6652F0038A98F /* SellBuyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SellBuyCard.swift; sourceTree = "<group>"; };
 		D05DF3832CD67EF20038A98F /* TextWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithImage.swift; sourceTree = "<group>"; };
 		D05DF3862CD690170038A98F /* PaymentsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsList.swift; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 				D08D71C32CDCFB22000A4E71 /* PaymentsCard.swift */,
 				D0EF8CC12CDF1BF000CF0F24 /* ChooseFiatToken.swift */,
 				D01170522CDF97330006D675 /* MyAdvertisementCard.swift */,
+				D03D11BC2CE1E94A00A43A7B /* ActiveCard.swift */,
 			);
 			path = AdvertisementCard;
 			sourceTree = "<group>";
@@ -213,6 +218,7 @@
 				D05DF3862CD690170038A98F /* PaymentsList.swift */,
 				D08D71AA2CDA4221000A4E71 /* AdvertisementsList.swift */,
 				D0EF8CCC2CDF762C00CF0F24 /* OrdersList.swift */,
+				D03D11BA2CE1E45D00A43A7B /* MyAdvertisementsList.swift */,
 			);
 			path = Lists;
 			sourceTree = "<group>";
@@ -596,6 +602,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D08D71B52CDA5054000A4E71 /* AdvertisementNewsCard.swift in Sources */,
+				D03D11BD2CE1E94A00A43A7B /* ActiveCard.swift in Sources */,
 				D05DF3822CD6652F0038A98F /* SellBuyCard.swift in Sources */,
 				D0EBCF5D2CD4E71400F7B78C /* RegisterPagePhone.swift in Sources */,
 				D01170512CDF97210006D675 /* MyAdvertisements.swift in Sources */,
@@ -616,6 +623,7 @@
 				D0EBCEEF2CD4E0B800F7B78C /* exchangerApp.swift in Sources */,
 				D0EBCF482CD4E69500F7B78C /* SettingsButton.swift in Sources */,
 				D0EF8CCD2CDF762C00CF0F24 /* OrdersList.swift in Sources */,
+				D03D11BB2CE1E45D00A43A7B /* MyAdvertisementsList.swift in Sources */,
 				D0EF8CC22CDF1BF000CF0F24 /* ChooseFiatToken.swift in Sources */,
 				D0EF8CC52CDF4FCF00CF0F24 /* OrdersMain.swift in Sources */,
 				D08D71C02CDC7F96000A4E71 /* NumericTextField.swift in Sources */,
